@@ -1,0 +1,10 @@
+.container{
+  overflow: scroll;
+  align-items:flex-start;
+}
+image{
+  display: block;
+  min-height: 46rem;
+  min-width: 375px;
+  margin: 0 auto;
+}

@@ -1,0 +1,140 @@
+.container .forsearch{
+  width: 100%;
+  height: 3rem;
+  background-color: #dbdbdb;
+}
+.container .forsearch input{
+  width: 50%;
+  float: right;
+  border: 1px solid #fff;
+  background-color: #fff;
+  height: 1.4rem;
+  margin-top: .7rem;
+  border-radius: .3rem;
+  padding-left: 2%;
+  margin-right: 2%;
+}
+.container .forsearch a{
+  width: 45%;
+  float: left;
+  margin-top: .7rem;
+}
+.container .forsearch a .section{
+  width: 77%;
+  height: 1.4rem;
+  line-height:1.8rem;
+  font-size: .8rem;
+  opacity: .3;
+  border-bottom: 1px solid gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-spacing: normal;
+}
+.container .forsearch a .section .picker{
+  color: #000;
+  text-align: center;
+}
+.container .forsearch a image{
+  float: left;
+  margin-left: .3rem;
+  width: 1.5rem;
+  height:1.5rem;
+  z-index: 999;
+}
+.menu{
+  width: 100%;
+  height: 2rem;
+  padding: .5rem 0 .2rem;
+  line-height: 2rem;
+  /*border-top: 1px solid grey;*/
+  border-bottom: 2px solid gainsboro;
+}
+.menu a{
+  float: left;
+  width: 33.3%;
+  height: 2.2rem;
+  text-align: center;
+  position:relative;
+}
+.menu picker,.menu a span{
+  position:absolute;
+  left: 2.3rem;
+  height: 100%;
+  width: 62%;
+  z-index: 999;
+  overflow: hidden;
+  text-align: left;
+}
+.menu a image{
+  float: left;
+  margin:.2rem .6rem 0 .8rem;
+  width: 1.5rem;
+  height:1.5rem;
+}
+.menu .section{
+  float: left;
+  width: 56%;
+  text-align:left;
+  height: auto;
+}
+ .sectiontitle{
+  float: left;
+  margin-right: .5rem;
+  font-size: .8rem;
+}
+.tenderlist{
+   display: block;
+   width: 94%;
+   padding:3%;
+}
+.tenderline{
+  display: block;
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+.tenderpic{
+  float: left;
+  position: relative;
+  height: 5rem;
+  width: 24%;
+}
+.tenderpico{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: .3rem;
+}
+.tendermon{
+  width: 46%;
+  height: 27%;
+  position: absolute;
+  bottom: 0;
+}
+.tendercontent{
+  float: left;
+  width: 73%;
+  margin-left: 3%;
+  padding-top: .2rem;
+}
+.bigh{
+  height: 2rem !important;
+}
+.tendercontent div{
+  display: block;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-spacing: normal;
+}
+.forinfo{
+  float: right;
+  width: 3.2rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: .2rem;
+  background-color: #fb6383;
+  border-radius: .1rem;
+}

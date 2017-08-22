@@ -1,0 +1,6 @@
+<view  class="container">
+  <image bindtouchmove="scaleimg" 
+  style="width:{{ scaleWidth }}px; height:{{ scaleHeight }}rem 
+  src="https://cdn.adquan.net/images/wx/introduce.png"></image>
+
+</view>

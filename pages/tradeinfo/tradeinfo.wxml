@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+      <view class="trademun">
+            出账金额
+            <span class="bigsize black floatr">5000.00</span>
+      </view>
+      <view class="cutline"></view>
+      <view class="tradeinfo">
+            类  型
+            <span class="floatr">支出</span>
+      </view>
+      <view class="tradeinfo">
+            时  间
+            <span class="floatr">2017-06-18 18:50:53</span>
+      </view>
+      <view class="tradeinfo">
+            交易账号
+            <span class="floatr">1234567894561230123456</span>
+      </view>
+      <view class="tradeinfo">
+            备 注
+            <span class="floatr">缴纳企业保证金</span>
+      </view>
+        <view class="cutline"></view>
+</view>

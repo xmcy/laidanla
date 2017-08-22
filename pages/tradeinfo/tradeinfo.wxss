@@ -1,0 +1,21 @@
+
+.trademun{
+  display: block;
+  width: 92%;
+  margin: 0 auto;
+  height: 3rem;
+  line-height: 4rem;
+}
+.cutline{
+  margin-top: 1rem;
+  width: 100%;
+  height: .5rem;
+  background-color: #dbdbdb;
+}
+.tradeinfo{
+  display: block;
+  width: 92%;
+  margin: 0 auto;
+  height: 3rem;
+  line-height: 3rem;
+}

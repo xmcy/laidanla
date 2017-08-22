@@ -1,0 +1,72 @@
+.menu{
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  border-bottom: .4rem solid gainsboro;
+}
+.menu a{
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+.bgpink{
+  border-bottom:2px solid #fb6383;
+}
+
+.tenderlist{
+   display: block;
+   width: 94%;
+   padding:3%;
+}
+.tenderline{
+  display: block;
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+.tenderpic{
+  float: left;
+  position: relative;
+  height: 5rem;
+  width: 24%;
+}
+.tenderpico{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: .3rem;
+}
+.tendermon{
+  width: 46%;
+  height: 27%;
+  position: absolute;
+  bottom: 0;
+}
+.tendercontent{
+  float: left;
+  width: 73%;
+  margin-left: 3%;
+  padding-top: .2rem;
+}
+.bigh{
+  height: 2rem !important;
+}
+.tendercontent div{
+  display: block;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-spacing: normal;
+}
+.forinfo{
+  float: right;
+  width: 3.2rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin-top: .2rem;
+  background-color: #fb6383;
+  border-radius: .1rem;
+}

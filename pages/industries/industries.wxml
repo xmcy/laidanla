@@ -1,0 +1,15 @@
+<view class="container">
+<div>
+ <input class="gborder forbuttom" bindconfirm="formSubmit" placeholder="搜索厂家" />
+</div>
+
+<checkbox-group bindchange="checkboxgroupBindchange">
+  <checkbox value="checkbox1">checkbox1</checkbox>
+  <checkbox value="checkbox2">checkbox2</checkbox>
+  <checkbox value="checkbox3">checkbox3</checkbox>
+</checkbox-group>
+<view>{{text}}</view>
+
+<navigator class="forbuttom choosein" open-type="navigateBack"
+>确 定</navigator>
+</view>

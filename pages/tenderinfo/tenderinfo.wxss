@@ -1,0 +1,151 @@
+swiper{
+  height: 12rem;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.tenderinfo{
+  display: block;
+  width: 96%;
+  margin: 0 auto;
+  height: 5rem;
+  margin-top: .5rem;
+}
+.cloackicon{
+  font-size: .5rem;
+}
+.cloackicon image{
+  width: .6rem;
+  height:.6rem;
+  margin-right: .2rem;
+}
+.cutline{
+  display: block;
+  width: 100%;
+  height: 1rem;
+  background-color: #e5e4e4;
+}
+.tenderinfo>view{
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.tenderinfo>view span{
+  margin-left: 4.5rem;
+}
+.forbid{
+  float: right;
+  width: 2.5rem;
+  height: 1rem;
+  line-height: 1rem;
+  background-color: #df2b2b;
+  color: #fff;
+  margin-right:.1rem; 
+  margin-top: .1rem
+}
+.tenderrequire{
+  display: block;
+  width: 97%;
+  margin: 0 auto;
+   color: grey;
+}
+.tenderspe{
+  height: 1.7rem;
+  border-bottom: 1px dotted gainsboro;
+}
+.tenderrequire image{
+  float: left;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: .4rem;
+}
+.tenderrequire>div{
+  display: inline-block;
+  width: 33.3%;
+  height: 2rem;
+  line-height: 2rem;
+}
+.tenderrequire>view{
+  margin-top: .3rem;
+  line-height: 1.3rem;
+}
+.bid{
+  margin-top: 1.3rem;
+  margin-bottom: .8rem;
+  display: block;
+  height: 1rem;
+  width: 100%；
+}
+.redline{
+  float: left;
+  width: 37%;
+  height: 2px;
+  background-color: #df2b2b;
+  margin-top: .5rem;
+}
+.bidinfo{
+  float: left;
+  width: 26%;
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  color: gray;
+}
+.bidline{
+  display: block;
+  width: 100%;
+  background-color: #f5f3f3;
+  font-size: .7rem;
+  margin-bottom: .8rem;
+  color: gray;
+}
+.bidline view{
+  width: 96%;
+  margin:0 auto;
+  padding-top: .5rem;
+  display: block;
+  height: .9rem;
+  line-height: .9rem;
+}
+.bidshop span,.biddetail span{
+  float: left;
+  width: auto;
+  margin-right: .4rem;
+}
+.bidshop span{
+  margin-right: 1.2rem;
+}
+
+.bidshop span image{
+  width: 3rem;
+  height: .9rem;
+}
+.shopname{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-spacing: normal;
+}
+.biddetail span{
+  margin-right: .5rem;
+}
+.redborder{
+  width: 3rem;
+  border: 1px solid #df2b2b;
+}
+.bidline .bidcontent{
+  height: auto !important;
+  line-height: 1rem;
+  padding-bottom: .3rem !important;
+}
+.biddetail .choosebid{
+  float: right;
+  width: 2.5rem !important;
+  height: 1rem;
+  line-height: 1rem;
+  background-color: #df2b2b;
+  color: #fff;
+  font-size: .7rem;
+  margin-top: -.1rem;
+  margin-right: .1rem;
+}

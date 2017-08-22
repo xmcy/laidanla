@@ -1,0 +1,81 @@
+<view class="container">
+
+    <view class="indexcontener">
+       <view class="myinfo" bindtap="chooselocation">
+         <image class="mypic" src="https://cdn.adquan.net/images/wx/my.png"></image> 
+       </view>
+       <view class="shopname">蓝迈网络科技</view>
+    </view>
+
+    <view class="accontinfo ">
+        <div>
+            <span>保 证 金：</span>
+            <span><a class="yellow">2000</a>元</span>
+            <span class="forbuttom tocash">提现</span>
+        </div>  
+         <div>
+            <span>现金账户：</span>
+            <span><a class="yellow">2000</a>元</span>
+            <span class="forbuttom tocash">提现</span>
+        </div>  
+        <view class="classname">
+            <span bindtap="changeshow">支付宝账号: 85432****bunim</span>
+            <image bindtap="changeshow" src="https://cdn.adquan.net/images/wx/modify.png"></image>
+        </view>
+    </view>
+
+    <view class="bindali" wx:if="{{bind}}">
+    <view class="classname">
+                <span> 账 户</span>
+                <input placeholder-class="smallsize" placeholder="请输入支付宝" />
+                </view>
+               <view class="classname">
+                <span>验证码</span><input placeholder-class="smallsize" placeholder="请输入验证码" />
+              <image bindtap="changeimg" src="{{url}}"></image>
+               </view>
+          <a class="smallsize">注：点击可切换图形验证码</a>
+          <div class="forbuttom forbind">提 交</div>
+    </view>
+
+     <div class="tradeinfo">交易明细</div>
+
+     <view class="tradelist">
+         <navigator url="url" class="tradeline">
+              <view class="trademane black">缴纳保证金</view>
+              <view class="tradetime">
+                   <span>2012-08-08
+                   18:38:08</span>
+                   <span>流水号：234567</span>
+              </view>
+              <view class="trademun">-5000.00</view>
+         </navigator>
+          <navigator url="url" class="tradeline">
+              <view class="trademane black">缴纳保证金</view>
+              <view class="tradetime">
+                   <span>2012-08-08
+                   18:38:08</span>
+                   <span>流水号：234567</span>
+              </view>
+              <view class="trademun">-5000.00</view>
+         </navigator>
+          <navigator url="url" class="tradeline">
+              <view class="trademane black">缴纳保证金</view>
+              <view class="tradetime">
+                   <span>2012-08-08
+                   18:38:08</span>
+                   <span>流水号：234567</span>
+              </view>
+              <view class="trademun pink">+5000.00</view>
+         </navigator>
+          <navigator url="url" class="tradeline">
+              <view class="trademane black">缴纳保证金</view>
+              <view class="tradetime">
+                   <span>2012-08-08
+                   18:38:08</span>
+                   <span>流水号：234567</span>
+              </view>
+              <view class="trademun">-5000.00</view>
+         </navigator>
+     </view>
+  
+ </view>

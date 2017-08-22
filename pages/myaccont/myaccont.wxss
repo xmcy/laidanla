@@ -1,0 +1,138 @@
+.indexcontener{
+  width: 100%;
+  height: 9rem;
+  position: relative;
+  background-image: url(https://cdn.adquan.net/images/wx/mybackpic.png);
+  background-size: 100% 100%;
+  opacity: .9;
+}
+.myinfo{
+  position: absolute;
+  top: 2.5rem;
+  left: 10%;
+  width: 2.6rem;
+  height: 2.6rem;
+}
+.mypic{
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: #fff;
+}
+.shopname{
+  position: absolute;
+  top: 3rem;
+  left: 27%;
+  width: 72%;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-spacing: normal;
+  font-size: 1.1rem;
+}
+.accontinfo{
+  height: 3.8rem;
+  width: 96%;
+  margin: 0 auto;
+  margin-top: .8rem;
+  font-size: .8rem;
+}
+.accontinfo div{
+  display: inline-block;
+  width: 50%;
+}
+.tocash{
+  display: inline-block;
+  width: 2rem;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: .1rem;
+  color: #fff;
+  background-color: #fb6383;
+  margin-left: .5rem;
+}
+.accontinfo view{
+  margin-top: .6rem;
+}
+.accontinfo view image{
+  width: 1.2rem;
+  height: .9rem;
+  margin-left: .8rem;
+}
+.bindali{
+  width: 96%;
+  margin: 0 auto;
+  border: 1px solid gainsboro;
+  padding: .6rem .2rem;
+}
+.bindali view{
+  margin-bottom: .5rem;
+}
+.bindali span{
+  float: left;
+  width: 3rem;
+  margin:.5rem 0 0 1.2rem;
+  font-size: .8rem;
+}
+.bindali input{
+  display: inline-block;
+  width: 9rem;
+  margin-left: 1.1rem;
+  padding-left: .2rem;
+  height: 1.8rem;
+  border: 1px solid gainsboro;
+}
+.bindali image{
+  float: right;
+  width: 4rem;
+  height:1.8rem;
+  margin-right: .6rem;
+}
+.bindali a{
+  margin-left: 5.6rem;
+}
+.forbind{
+  display: block;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  width: 3rem;
+  color: #fff;
+  background-color: #fb6383;
+  margin: .5rem 38%;
+  font-size: .8rem;
+}
+.tradeinfo{
+   display: block;
+   width: 96%;
+   height: 1.6rem;
+   line-height: 1.6rem;
+   padding-left:3%;
+   background-color: #f4ece9;
+   margin-top: 1rem;
+}
+.tradelist{
+  width: 96%;
+  margin: 0 auto;
+}
+.tradeline{
+  display: block;
+  width: 100%;
+  height:3.7rem;
+  border-bottom: 1px solid gainsboro;
+}
+.tradeline>view{
+  margin-top: .8rem;
+  padding-left: .3rem;
+  width: auto;
+}
+.tradetime span{
+  margin-right: 1.7rem;
+}
+.tradetime{
+  font-size: .9rem;
+}
+.tradeline .trademun{
+  float: right;
+  margin-top: -2.6rem;
+}

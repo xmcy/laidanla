@@ -1,0 +1,65 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: grey;
+} 
+.bigsize{
+  font-size: 1.2rem ;
+}
+.midsize{
+  font-size: 1rem ;
+}
+.smallsize{
+  font-size: .7rem ;
+}
+.littlesize{
+  font-size: .6rem ;
+}
+.bfont{
+  font-weight: 600;
+}
+.pink{
+  color: #fb6383;
+}
+.yellow{
+  color: #f9b82c;
+}
+.white{
+  color: #fff;
+}
+.black{
+  color: #000;
+}
+.red{
+  color: #df2b2b;
+}
+.forbuttom{
+  text-align: center;
+  border-radius: 3px;
+}
+.floatr{
+  float: right;
+}
+.floatl{
+  float: left;
+}
+.gborder{
+  border: 1px solid gainsboro;
+}
+.inputpa{
+ padding-left: .5rem;
+}
+.blue{
+  color: #5698d6;
+}
+.littlep{
+  margin-right: .4rem;
+}
+
+

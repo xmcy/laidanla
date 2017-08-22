@@ -1,0 +1,172 @@
+<view class="container">
+<div class="forsearch">
+      <a>
+        <image src="https://cdn.adquan.net/images/wx/tenderarea.png"></image>
+           <view class="section">
+          <view class="sectiontitle'"></view>
+          <picker mode="region" bindchange="bindRegionChange" value="{{region}}">
+            <view class="picker">
+            {{region[0]}}{{region[1]}}{{region[2]}}
+            </view>
+          </picker></view>
+      </a>
+ <input class="gborder" bindconfirm="formSubmit" placeholder="招标搜索" />
+</div>
+
+ <view class="menu">
+        <a bindtap="active1">
+        <image src="https://cdn.adquan.net/images/wx/tendertype.png"></image>
+        <view class="section">
+        <view class="sectiontitle"> </view>
+         <picker bindchange="bindPickerChange" value="{{index1}}" range="{{array}}">
+          <view class="picker">
+            {{array[index1]}}
+          </view>
+        </picker>
+      </view></a>
+
+      <a>
+          <image src="https://cdn.adquan.net/images/wx/tenderstatus.png"></image>
+            <view class="section">
+        <view class="sectiontitle"> </view>
+        <picker bindchange="bindstatusChange" value="{{index2}}" range="{{status}}">
+          <view class="picker">
+            {{status[index1]}}
+          </view>
+        </picker>
+      </view>
+      </a>
+
+       <a bindtap="active1">
+        <image src="https://cdn.adquan.net/images/wx/list.png"></image>
+        <view class="section">
+        <view class="sectiontitle"> </view>
+         <picker bindchange="binddesginChange" value="{{index3}}" range="{{desgin}}">
+          <view class="picker">
+            {{desgin[index1]}}
+          </view>
+        </picker>
+      </view></a>
+
+   </view>
+
+<div class="tenderlist">
+  
+<div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/04.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+   <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/03.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+    <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/06.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+   
+<div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/04.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+   <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/03.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+    <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/06.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+</div>
+
+</view>

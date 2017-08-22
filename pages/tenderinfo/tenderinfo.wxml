@@ -1,0 +1,107 @@
+<view class="">
+      <swiper indicator-dots="true"
+          autoplay="true" interval="5000" duration="1000">
+          <block wx:for="{{imgUrls}}">
+            <swiper-item>
+              <image src="{{item}}" class="slide-image"/>
+            </swiper-item>
+          </block>
+      </swiper>
+
+        <view class="tenderinfo">
+             <view class="black">寻武汉点餐灯箱制作</view>
+             <view class="smallsize">
+                   <a>时间：2017-08-08</a>
+                   <span class="cloackicon yellow"> <image src="https://cdn.adquan.net/images/wx/cloack.png"></image>距离投标定金结束还有12天12小时44分</span>
+             </view>
+             <view class="smallsize">该招标可接受<a class="red">10</a>个投标 剩余<a class="red">6</a>个名额
+                  <span>浏览：28</span> 
+             </view>
+        </view>
+      
+      <view class="cutline"></view>
+
+      <view class="tenderrequire smallsize">
+           <view class="midsize tenderspe"><image src="https://cdn.adquan.net/images/wx/tenderinfo.png"></image>招标详情<span class="forbuttom forbid smallsize">投 标</span></view>
+           <div>招标号：56786789</div>
+           <div>类别：灯箱标识</div>
+           <div>设计稿：已有</div>
+           <div>保证金：2000元</div>
+           <div>安装：需要</div>
+           <div>交付期：2017-07-08</div>
+           <view class="classname">
+                详情：承接武汉地区灯箱制作，包含安装运送,收费低廉，品质有保证。灯箱制作种类齐全，免设计费，全城上门测量尺寸。
+           <span class="red littlesize">（友情提醒：更多详细信息可登陆制作宝网页查看）</span>
+           </view>
+      </view>
+
+      <view class="bid">
+            <span class="redline"></span>
+            <span class="bidinfo">投标情况</span>
+            <span class="redline"></span>
+      </view>
+      <view class="bidline">
+      <view class="black shopname midsize">花不你妈妈咪努把鱼头而传统v要不你没看束灯箱厂</view>
+            <view class="bidshop">
+                  <span class="yellow smallsize">湖北 武汉</span>
+                  <span class="red redborder">实名认证</span>
+                  <span class="red redborder">企业认证</span>
+                  <span class=""><image src="https://cdn.adquan.net/images/wx/niu.png"></image></span>
+            </view>
+            <view class="biddetail littlesize">
+                  <span class="">报价:30000</span>
+                  <span class="">时间：2017-09-12</span>
+                  <span class="">保证金：12000</span>
+                  <span class="">定金：30%</span>
+                  <span class="choosebid forbuttom">选 标</span>
+            </view>
+            <view class="bidcontent">
+            投标说明：广告牌位于华强北路与红荔路交汇处交行大厦西面墙体，位于是通往华强的主要通道红荔路华
+强路段，华强北商业区是深圳市两大商业区之一，是电上人间就在此处；该位置是华强商圈西北片区进
+出华强北的必经之路，人流车流量汇集。
+            </view>
+      </view>
+        <view class="bidline">
+      <view class="black shopname midsize">花不你妈妈咪努把鱼头而传统v要不你没看束灯箱厂</view>
+            <view class="bidshop">
+                  <span class="yellow smallsize">湖北 武汉</span>
+                  <span class="red redborder">实名认证</span>
+                  <span class="red redborder">企业认证</span>
+                  <span class="">牛</span>
+            </view>
+            <view class="biddetail littlesize">
+                  <span class="">报价:30000</span>
+                  <span class="">时间：2017-09-12</span>
+                  <span class="">保证金：12000</span>
+                  <span class="">定金：30%</span>
+                  <span class="choosebid forbuttom">选 标</span>
+            </view>
+            <view class="bidcontent">
+            投标说明：广告该广告媒体
+东100米就是五星级的圣廷苑酒店，深圳最高档的夜总会天上人间就在此处；该位置是华强商圈西北片区进
+出华强北的必经之路，人流车流量汇集。
+            </view>
+      </view>
+        <view class="bidline">
+      <view class="black shopname midsize">花不你妈妈咪努把鱼头而传统v要不你没看束灯箱厂</view>
+            <view class="bidshop">
+                  <span class="yellow smallsize">湖北 武汉</span>
+                  <span class="red redborder">实名认证</span>
+                  <span class="red redborder">企业认证</span>
+                  <span class="">牛</span>
+            </view>
+            <view class="biddetail littlesize">
+                  <span class="">报价:30000</span>
+                  <span class="">时间：2017-09-12</span>
+                  <span class="">保证金：12000</span>
+                  <span class="">定金：30%</span>
+                  <span class="choosebid forbuttom">选 标</span>
+            </view>
+            <view class="bidcontent">
+            投标说明：广告牌位于华强北路与红荔路交汇处交行大厦西面墙体，位于是通往华强的主要通道红荔路华
+强路段，华强北商业区是深圳市两大商业区之一，是电子、电间就在此处；该位置是华强商圈西北片区进
+出华强北的必经之路，人流车流量汇集。
+            </view>
+      </view>
+      
+</view>

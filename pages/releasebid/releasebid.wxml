@@ -1,0 +1,47 @@
+<view class="container">
+   <div class="pink for_mytender bigsize">填写我的投标</div>
+
+ <view class="section">
+        <span class="sectiontitle">投标报价</span>
+        <input class="price floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入报价金额" />
+    </view>
+
+<view class="section">
+        <span class="sectiontitle">定金比例</span>
+        <input class="pricerate floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入定金比例" />
+    </view>
+
+<view class="section">
+  <view class="sectiontitle">完工时间</view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+       {{date}}
+    </view>
+  </picker>
+  </view>
+
+
+  <view class="section">
+        <span class="sectiontitle">联系人员</span>
+        <input class="contactor floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入联系人" />
+    </view>
+
+     <view class="section">
+        <span class="sectiontitle">联系电话</span>
+        <input class="tele floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入联系方式" />
+    </view>
+
+  <view class="section">
+    <span class="sectiontitle">投标描述</span>
+    <span class="sectiontip littlesize blue">(详细描述制作工艺流程、设备将助你提高中标率)</span>
+    <textarea class="tenderdis floatl gborder inputpa" placeholder-class="smallsize" auto-height 
+    maxlength="500" ></textarea>
+  </view>
+
+  
+
+  <view class="forbuttom releasetender">
+     提 交
+  </view>
+
+</view>

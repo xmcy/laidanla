@@ -1,0 +1,140 @@
+<view class="container">
+   <div class="pink for_mytender bigsize">填写我的招标</div>
+
+  <view class="section">
+    <view class="sectiontitle">招标类目</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">
+        {{array[index]}}
+      </view>
+    </picker>
+  </view>
+
+<view class="section">
+  <view class="sectiontitle">招标地区</view>
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}">
+    <view class="picker">
+      {{region[0]}} {{region[1]}} {{region[2]}}
+    </view>
+  </picker></view>
+
+<view class="section">
+  <view class="sectiontitle">招标截止</view>
+  <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+    <view class="picker">
+       {{date}}
+    </view>
+  </picker>
+  <view class="sectiontitle">时间</view>
+  <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+    <view class="picker">
+       {{time}}
+    </view>
+  </picker>
+  </view>
+
+<view class="section">
+  <view class="sectiontitle">制作截止</view>
+  <picker mode="date" value="{{date2}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange2">
+    <view class="picker">
+       {{date2}}
+    </view>
+  </picker>
+  <view class="sectiontitle">时间</view>
+  <picker mode="time" value="{{time2}}" start="09:01" end="21:01" bindchange="bindTimeChange2">
+    <view class="picker">
+       {{time2}}
+    </view>
+  </picker>
+  </view>
+
+    <view class="section">
+        <span class="sectiontitle">联系电话</span>
+        <input class="tele floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入联系方式" />
+    </view>
+
+  <view class="section">
+        <span class="sectiontitle">联系人员</span>
+        <input class="contactor floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入联系人" />
+    </view>
+
+    <view class="section">
+        <span class="sectiontitle">保证金额</span>
+        <input class="contactor floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入整百数的保证金额" />
+        <navigator class="blue smallsize" url="../introduce/introduce">（了解保证金）</navigator>
+    </view>
+
+     <view class="section" bindtap="shield" >
+        <span class="sectiontitle">屏蔽厂家</span>
+        <navigator class="blue"  url="../industries/industries" open-type="navigate">点击选择</navigator>
+    </view>
+
+<view wx:if="{{shield}}">
+    <view> view1 </view>
+    <view> view2 </view>
+  </view>
+
+ <view class="section">
+        <span class="sectiontitle">招标标题</span>
+        <input class="title floatl gborder inputpa" placeholder-class="smallsize" placeholder="请输入标题（10-50个文字）" />
+    </view>
+
+  <view class="section">
+    <span class="sectiontitle">招标描述</span>
+    <textarea class="tenderdis floatl gborder inputpa" placeholder-class="smallsize" auto-height 
+    maxlength="500" placeholder="请详细描述招标产品、数量、大小等关键信息" ></textarea>
+  </view>
+
+   <view class="section">
+    <span class="sectiontitle">资料图片</span>
+    <image class="addfile" bindtap="chooseImage" src="https://cdn.adquan.net/images/wx/addfileb2.png"></image>
+  </view>
+
+   <view class="section">
+    <span class="sectiontitle">招标方式</span>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <label  class="radio floatl">
+        <radio value="公开招标" checked="{{item.checked}}"/>公开招标
+      </label>
+      <navigator class="floatl"  url="../industries/industries">
+      <label class="radio">
+        <radio value="邀请招标" checked="{{item.checked}}"/>邀请招标
+      </label>
+    </navigator>
+   </radio-group> 
+  </view>
+
+  <view wx:if="{{tenderway}}">
+    <view> view1 </view>
+    <view> view2 </view>
+  </view>
+
+   <view class="section">
+    <span class="sectiontitle">安装方式</span>
+    <radio-group class="radio-group">
+      <label class="radio">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/> 需 要
+      </label>
+      <label class="radio">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/>不需要
+      </label>
+   </radio-group> 
+  </view>
+
+   <view class="section">
+    <span class="sectiontitle">设计图稿</span>
+    <radio-group class="radio-group">
+      <label class="radio">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/> 已 有
+      </label>
+      <label class="radio">
+        <radio value="{{item.name}}" checked="{{item.checked}}"/> 没 有
+      </label>
+   </radio-group> 
+  </view>
+
+  <view class="forbuttom releasetender">
+     提 交
+  </view>
+
+</view>
