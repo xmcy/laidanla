@@ -1,12 +1,52 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/chat/chat"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#333",
-        "navigationBarTitleText": "腾讯云小程序解决方案",
-        "navigationBarTextStyle": "white"
-    }
+  "pages":[
+    "pages/index/index",    
+    "pages/releaseTender/releaseTender",
+    "pages/mine/mine",
+    "pages/tenderlist/tenderlist",
+    "pages/introduce/introduce",
+    "pages/tenderinfo/tenderinfo",
+    "pages/myaccont/myaccont",
+    "pages/tradeinfo/tradeinfo",
+    "pages/shoptender/shoptender",
+    "pages/shopbid/shopbid",
+    "pages/industries/industries",
+    "pages/releasebid/releasebid",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "来单啦",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#grey",
+    "selectedColor": "#f9b82c",
+    "backgroundColor": "#f4ece9",
+    "padding": ".3rem",
+    "fontSize": "1rem",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/dist/img/toindex.png",
+        "selectedIconPath": "/dist/img/toindex2.png",
+        "color": "white",
+        "text": "首 页"
+      },
+      {
+        "pagePath": "pages/releaseTender/releaseTender",
+        "iconPath": "/dist/img/release2.png",
+        "selectedIconPath": "/dist/img/release.png",
+        "text": "发布招标"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/dist/img/my.png",
+        "selectedIconPath": "/dist/img/my2.png",
+        "text": "我 的"
+      }
+    ]
+  }
 }
+

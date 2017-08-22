@@ -1,40 +1,92 @@
-<view class="root">
-    <view class="line">
-        <text>综合示例</text>
-        <view bindtap="openChat" class="demo">
-            三木聊天室
-            <view class="link">Demo体验 ></view>
-        </view>
+<!--index.wxml-->
+<view class="container">
+
+    <view class="indexcontener">
+       <view class="position" bindtap="chooselocation">
+         <image class="position_icon"     src="https://cdn.adquan.net/images/wx/web0102.png"></image> 
+          <view class="current_position bigsize">{{name}}</view>
+       </view>
+       <view class="search">
+       <form>
+          <input class="forbuttom" placeholder="搜索招标" bindconfirm="formSubmit" />
+          <view class="fortender forbuttom">我要招标</view>
+       </form> 
+       </view>
     </view>
-    <view class="line">
-        <text>登录接口测试</text>
-        <input type="text" value="{{loginUrl}}" disabled class="hide"></input>
-        <view class="line-control">
-            <view bindtap="doLogin" class="item"><view class="item-inner">登录</view></view>
-            <view bindtap="clearSession" class="item"><view class="item-inner">清除登录会话</view></view>
-        </view>
-    </view>
-    <view class="line">
-        <text>带会话请求测试</text>
-        <input type="text" value="{{requestUrl}}" disabled class="hide"></input>
-        <view class="line-control">
-            <view bindtap="doRequest" class="item" ><view class="item-inner">请求</view></view>
-        </view>
-    </view>
-    <view class="line">
-        <text>WebSocket 信道服务测试</text>
-        <input type="text" value="{{tunnelUrl}}" disabled class="hide" />
-        <view class="line-control">
-            <view class="item flag">
-                <view class="item-inner">信道
-                    <view class="switch-status">
-                        <text>{{tunnelStatusText[tunnelStatus]}}</text>
-                        <switch bindchange="switchTunnel" class="switch" checked="{{tunnelStatus == 'connected'}}"/>
-                    </view>
-                </view>
-            </view>
-            <view bindtap="sendMessage" class="item {{tunnelStatus == 'connected' || 'disabled'}}"><view class="item-inner">发送消息</view></view>
-            <view bindtap="testReconnect" class="item {{tunnelStatus == 'connected' || 'disabled'}}"><view class="item-inner">测试重连</view></view>
-        </view>
-    </view>
+
+        <div class="navlist">招标分类</div>
+        <div class="navcontener">
+              <a><image src="https://cdn.adquan.net/images/wx/01.png"></image><div class="navclassfy">印刷</div></a> 
+               <a><image src="https://cdn.adquan.net/images/wx/02.png"></image><div class="navclassfy">印刷</div></a>  
+                <a><image src="https://cdn.adquan.net/images/wx/03.png"></image><div class="navclassfy">印刷</div></a>  
+                 <a><image src="https://cdn.adquan.net/images/wx/04.png"></image><div class="navclassfy">印刷</div></a>  
+                  <a><image src="https://cdn.adquan.net/images/wx/05.png"></image><div class="navclassfy">印刷</div></a>  
+                   <a><image src="https://cdn.adquan.net/images/wx/06.png"></image><div class="navclassfy">印刷</div></a>  
+                    <a><image src="https://cdn.adquan.net/images/wx/07.png"></image><div class="navclassfy">印刷</div></a>  
+                     <a><image src="https://cdn.adquan.net/images/wx/08.png"></image><div class="navclassfy">印刷</div></a>   
+             </div>   
+
+<div class="newtender">
+    <image class="tenderpico" src="https://cdn.adquan.net/images/wx/fire.png"></image><span>最新招标</span>
+</div>
+<div class="tenderlist">
+   <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/04.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+   <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/03.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+    <div class="tenderline">
+       <div class="tenderpic">
+          <image class="tenderpico gborder" src="https://cdn.adquan.net/images/wx/06.png"></image>
+          <image class="tendermon" src="https://cdn.adquan.net/images/wx/mon.png"></image>
+       </div>
+       <div class="tendercontent smallsize">
+         <div class="tendertitle midsize black bigh">灯箱制作招标啦</div>
+          <div>
+            <span><a class="pink">13</a>参与</span>
+            <a class=" bfont"> | </a>
+            <span>招标中</span>
+         </div>
+        <div class="tenderinfo">
+            <span class="floatl littlep">仅剩<a class="yellow">3</a>个投标名额</span>
+            <a class="yellow floatl">保证金2000</a>
+            <span class="forinfo white forbuttom floatl">查看详情</span>
+         </div>
+       </div>
+   </div>
+</div>
+
 </view>
